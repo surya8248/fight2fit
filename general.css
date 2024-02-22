@@ -1,0 +1,290 @@
+.header{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height:130px ;
+  background-color: black;
+  display: flex;
+}
+
+.logo{
+  width: 110px;
+  margin-left: 45px;
+
+
+}
+
+.left-end{
+  color: white;
+
+  display: flex;
+  padding-left: 80px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  
+
+ 
+}
+.left-end div{
+  display: flex;
+  margin-left: 30px;
+}
+
+.left-end div:hover{
+  cursor: pointer;
+  color: rgb(255, 94, 23);
+}
+
+.right-end{
+ 
+}
+.gym-banner{
+  height: 842px;
+  z-index: 0;
+}
+
+body{
+  background-color:rgb(24, 24, 24);
+  padding-bottom: 0px;
+  padding-top: 122px;
+  padding-left: 0px;
+  
+}
+.our-best-features{
+ color: rgb(255, 94, 23);
+ display: flex;
+ justify-content: center;
+ margin-top:100px ;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+}
+.why-choose-us{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 350px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 15px;
+  
+}
+
+.progression{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  
+  
+}
+
+.progression-info{
+  color: rgb(175, 175, 175);
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+
+.progression-box-1{
+  
+  height: 220px;
+  
+ 
+}
+
+.progression-box{
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  justify-content: space-evenly;
+}
+.OURSERVICES{
+  color: white;
+  font-size:40px;
+  font-weight: bolder;
+  justify-content: center;
+  display: flex;
+}
+
+ .ourservices-box{
+  background-color: rgb(42, 42, 42);
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  height: 350px;
+  width: 350px;
+  border: none;
+  border-radius: 45px;
+  vertical-align: middle;
+  margin-right: 20px;
+ 
+ }
+
+ .weightlossimg{
+  margin-left: 48px;
+  margin-top: 35px;
+  width: 250px;
+  
+ }
+
+ .title{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 65px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  
+ }
+
+ .ourservices-info{
+  color: rgb(175, 175, 175);
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1px;
+  font-size: 14px;
+ 
+ }
+
+ .ourservices-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 50px;
+  
+  
+  
+ }
+
+ .Athletes-photos{
+  width: 350px;
+ }
+
+ .Athletes-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  margin-top: 50px;
+ }
+
+.viewmore{
+  color: white;
+  background-color: rgb(255, 94, 23);
+  border: none;
+  width: 120px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewmorediv{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.About{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+}
+.sociallink{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.facebook-logo{
+  width: 35px;
+  margin-top: 12px;
+  
+  
+}
+
+.instagram-logo{
+  width: 35px;
+  height: 37px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.logo-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  
+}
+.quicklinks{
+  color: rgb(175, 175, 175);
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -2px;
+}
+
+.quicklinks div{
+  margin-bottom: 16px;
+
+}
+
+.quicklinks div:hover{
+  cursor: pointer;
+  color:  rgb(255, 94, 23);
+}
+
+.monday{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+
+}
+.time{
+  color:white ;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 12px;
+
+}
+.mail{
+  color: rgb(255, 94, 23);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.email{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ending{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  column-gap: 25px;
+}
+.realending{
+  position: absolute;
+  right:0px ;
+  left: 0px;
+  color: white;
+  background-color: black ;
+  height: 75px;
+  padding-top: 37.5px;
+  padding-left: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+
+  
+}
